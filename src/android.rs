@@ -77,7 +77,7 @@ struct LogcatWriter<'a> {
 impl<'a> LogcatWriter<'a> {
     fn log(&self, msg: &[u8]) -> io::Result<()> {
         let msg = CString::new(msg.to_vec())?;
-        android_log(self.priority, &self.tag, &msg);
+        android_log(self.priority, self.tag, &msg);
         Ok(())
     }
 }

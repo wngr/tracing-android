@@ -15,7 +15,7 @@ mod layer;
 /// // add the layer to an existing subscriber
 /// let subscriber = {
 ///     use tracing_subscriber::layer::SubscriberExt;
-///     subscriber.with(tracing_win_event_log::layer("com.example").unwrap())
+///     subscriber.with(tracing_android::layer("com.example").unwrap())
 /// }
 // // .. install the subscriber ..
 /// ```

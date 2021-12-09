@@ -1,12 +1,12 @@
 [package]
 name = "tracing-android"
-version = "0.1.3"
+version = "0.1.5"
 authors = ["Oliver Wangler <oliver@wngr.de>", "Actyx AG <developer@actyx.com>"]
 license = "MIT OR Apache-2.0"
 edition = "2018"
 keywords = ["tracing", "android", "log"]
 description = "Tracing layer to log to Android's logcat"
-repository = "https://github.com/Actyx/tracing-android"
+repository = "https://github.com/wngr/tracing-android"
 
 [dependencies]
 android_log-sys = "0.2.0"
